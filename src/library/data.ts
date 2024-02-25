@@ -1,7 +1,6 @@
 import React from 'react'
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+import { FaMapPin } from "react-icons/fa";
 
 export const links = [
     {
@@ -13,12 +12,12 @@ export const links = [
         hash: "#about",
     },
     {
-        name: "Projects",
-        hash: "#projects",
-    },
-    {
         name: "Skills",
         hash: "#skills",
+    },
+    {
+        name: "Projects",
+        hash: "#projects",
     },
     {
         name: "Experience",
@@ -32,28 +31,54 @@ export const links = [
 
 export const experiencesData = [
     {
-        title: "Graduated bootcamp",
-        location: "Miami, FL",
-        description:
-            "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-        icon: React.createElement(LuGraduationCap),
-        date: "2019",
-    },
-    {
-        title: "Front-End Developer",
-        location: "Orlando, FL",
-        description:
-            "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+        title: "Full-Stack Web Developer",
+        companyTitle: "Freelance",
+        location: "Turkey",
+        locationIcon: React.createElement(FaMapPin),
+        description: "I create web sites, e-commerce system, b2b-b2c applications, payment applications, payment integrations and custom web applications.",
+        skills: "Php, Laravel, RestAPI, Node.js, Mysql, React.js, Next.js, MongoDb, Socket.io, Javascript, JQuery",
         icon: React.createElement(CgWorkAlt),
-        date: "2019 - 2021",
+        date: "01.2020 - Still Working",
     },
     {
-        title: "Full-Stack Developer",
-        location: "Houston, TX",
-        description:
-            "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-        icon: React.createElement(FaReact),
-        date: "2021 - present",
+        title: "Full-Stack Web Developer",
+        companyTitle: "Ödüyo Online Payment",
+        location: "Istanbul",
+        locationIcon: React.createElement(FaMapPin),
+        description: "I worked as a full-stack web developer. I was fixing bugs, developing legacy codes, creating new modules and integration with banks and accounting systems.",
+        skills: "Php, Laravel, RestAPI, Mysql, Javascript, JQuery",
+        icon: React.createElement(CgWorkAlt),
+        date: "06.2022 - 12.2023",
+    },
+    {
+        title: "Full-Stack Web Developer",
+        companyTitle: "TD Team Aviation",
+        location: "Antalya",
+        locationIcon: React.createElement(FaMapPin),
+        description: "I was managing web sites and developing branch's web sites. I created e-commerce education web application and airport solution center application for tracking plane which are need repair.",
+        skills: "Php, Laravel, RestAPI, Node.js, Mysql, React.js, Next.js, MongoDb, Socket.io, Javascript, JQuery",
+        icon: React.createElement(CgWorkAlt),
+        date: "04.2019 - 05.2021",
+    },
+    {
+        title: "Full-Stack Web Developer",
+        companyTitle: "Dijital Bilisim",
+        location: "Istanbul",
+        locationIcon: React.createElement(FaMapPin),
+        description: "I was testing and managing web applications, creating corporate and e-commerce web sites. Created a custom CRM system.",
+        skills: "Php, MySql, Javascript, Jquery",
+        icon: React.createElement(CgWorkAlt),
+        date: "05.2018 - 04.2019",
+    },
+    {
+        title: "Junior Web Developer",
+        companyTitle: "Mobex",
+        location: "Bursa",
+        locationIcon: React.createElement(FaMapPin),
+        description: "I was testing web and desktop applications and creating corporate web sites.",
+        skills: "Php, MySql, Javascript",
+        icon: React.createElement(CgWorkAlt),
+        date: "12.2017 - 05.2018",
     },
 ] as const;
 
@@ -82,23 +107,20 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-    "HTML",
-    "CSS",
+    "Php",
+    "Laravel",
+    "Node.js",
+    "Express",
     "JavaScript",
-    "TypeScript",
     "React",
     "Next.js",
-    "Node.js",
-    "Git",
+    "TypeScript",
+    "HTML",
+    "CSS",
     "Tailwind",
-    "Prisma",
-    "MongoDB",
-    "Redux",
-    "GraphQL",
-    "Apollo",
-    "Express",
-    "PostgreSQL",
-    "Python",
-    "Django",
     "Framer Motion",
+    "MySql",
+    "MongoDB",
+    "Git",
+    "Jira",
 ] as const;

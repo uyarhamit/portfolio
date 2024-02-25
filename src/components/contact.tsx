@@ -49,7 +49,7 @@ export default function Contact() {
           placeholder="Your message"
         ></textarea>
         <button
-          type="submit"
+          type="button"
           className="group bg-blue-500 text-white p-3 rounded-lg hover:bg-blue-800 hover:scale-110 font-medium flex items-center justify-center gap-2 transition dark:bg-gray-950"
         >
           Send{" "}

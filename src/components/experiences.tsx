@@ -27,7 +27,7 @@ export default function Experiences() {
                 contentArrowStyle={{
                   borderRight: "7px solid  rgb(217, 217, 217)",
                 }}
-                date="2011 - present"
+                date={experience.date}
                 dateClassName="text-white"
                 iconStyle={{ background: "rgb(17, 24, 39)", color: "#fff" }}
                 icon={experience.icon}
@@ -35,10 +35,11 @@ export default function Experiences() {
                 <h3 className="vertical-timeline-element-title font-extrabold">
                   {experience.title}
                 </h3>
-                <h4 className="vertical-timeline-element-subtitle font-bold">
-                  {experience.location}
+                <h4 className="flex items-center vertical-timeline-element-subtitle font-medium">
+                  {experience.locationIcon} {experience.location}
                 </h4>
                 <p>{experience.description}</p>
+                <p><b>Stacks: </b> {experience.skills}</p>
               </VerticalTimelineElement>
             </React.Fragment>
           );

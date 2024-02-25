@@ -34,24 +34,21 @@ export default function Intro() {
               alt="Hamit Uyar"
             />
           </motion.div>
-          <motion.span
+          {/* <motion.span
             className="absolute top-100 bottom-0 left-0 text-4xl"
             initial={{ opacity: 0.5, rotate: -50 }}
             animate={{ opacity: 1, rotate: 0 }}
             transition={{ duration: 1 }}
           >
             👋
-          </motion.span>
+          </motion.span> */}
         </div>
       </div>
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5]"
+        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] text-center"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
-      >
-        Hello, I'm Hamit Uyar. I'm a full-stack developer with 6+ years of
-        experience. I use PHP (laravel), javascript, jquery, mysql as
-        professional. I improve myself in nodejs, react.js and next.js.
+      > Fullstack Web Developer
       </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row justify-center gap-4 px-4 text-lg font-medium"
@@ -72,21 +69,23 @@ export default function Intro() {
         </Link>
 
         <a
-          href="#"
+          href="/hamituyarcv.pdf"
           className="group flex items-center gap-2 bg-white rounded-full text-black px-7 py-3 outline-none focus:scale-110 hover:scale-110 hover:bg-gray-50 transition cursor-pointer"
+          download={true}
         >
           Download CV{" "}
           <HiDownload className="opacity-70 group-hover:translate-y-2 transition" />
         </a>
         <a
-          href="https://www.linkedin.com"
-          target="blank"
+          href="https://www.linkedin.com/in/hamit-uyar-5ab1a290/"
+          target="_blank"
           className="bg-white p-4 text-gray-700 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-50 transition"
         >
           <BsLinkedin />
         </a>
         <a
-          href="#"
+          href="https://github.com/uyarhamit"
+          target="_blank"
           className="bg-white p-4 text-gray-700 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-50 transition"
         >
           <FaGithubSquare />
