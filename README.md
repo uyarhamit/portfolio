@@ -1,4 +1,4 @@
-## What this app does
+## What does this app do?
 
 This web application is my portfolio. Show to customer what i did and what my skills.
 
